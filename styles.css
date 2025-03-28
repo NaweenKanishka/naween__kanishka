@@ -1,0 +1,384 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-image: url(autumn-leaves-illuminate-nature-elegance-beauty-generated-by-ai.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center; */
+    background-color: rgb(231, 231, 231);
+
+
+}
+
+.page-content {
+    max-width: 1600px;
+    margin: 00px auto;
+}
+
+nav {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+
+
+}
+
+nav ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li {
+    height: 50px;
+}
+
+nav a {
+    height: 100%;
+    padding: 0 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+nav a:hover {
+    background-color: lightgray;
+}
+
+nav li:first-child {
+    margin-right: auto;
+}
+
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(236, 236, 236, 0);
+    backdrop-filter: blur(10px);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sidebar li {
+    width: 100%;
+}
+
+.sidebar a {
+    width: 100%;
+}
+
+.Menu {
+    display: none;
+
+}
+
+/*Advertizing purpose*/
+.sec01-begining {
+    background-color: white;
+    max-width: 100%;
+    margin-top: 10px;
+
+    height: 400px;
+}
+
+.sec01-div-01,
+.sec02-div-01 {
+    height: 100%;
+
+    /* border-left: 1px solid rgb(231, 231, 231);
+ border-right: 1px solid rgb(231, 231, 231); */
+
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.sec02-01 {
+    text-align: center;
+}
+
+.exp-image img {
+    width: 50px;
+}
+
+
+
+
+.sec02-begining {
+    background-color: rgb(224, 224, 224);
+    max-width: 100%;
+    margin-top: 0px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    /* display: flex;
+    overflow-x: auto; 
+    background-image: url(autumn-leaves-illuminate-nature-elegance-beauty-generated-by-ai.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;*/
+
+
+
+
+}
+
+.sec02-div-02 {
+    padding: 10px;
+    width: 150px;
+    height: auto;
+
+    border-radius: 20px;
+
+    background-color: rgb(255, 255, 255);
+    backdrop-filter: blur(10px);
+    color: rgb(0, 0, 0);
+
+
+
+
+}
+
+.sec02-div-01 {
+    display: flex;
+    gap: 10px;
+
+
+
+}
+
+.sec03-begining {
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+    margin-top: 0px;
+    height: auto;
+}
+
+.sec04-begining {
+    background-color: rgb(224, 224, 224);
+    max-width: 100%;
+    margin-top: 0px;
+    height: auto;
+}
+
+.sec05-begining {
+    background-color: rgb(255, 255, 255);
+   
+    margin-top: 0px;
+    height: auto;
+    padding: 30px;
+    gap: 10px;
+    border-radius: 0px;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center; /* Centers the images horizontally */
+    gap: 20px; /* Adds spacing between images */
+    
+    margin-top: 20px; /* Adds space between h1 and images */
+}
+
+
+
+.sec06-begining {
+    background-color: rgb(224, 224, 224);
+    
+    margin-top: 0px;
+    height: auto;
+    
+}
+
+.sec06-div-01 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.sec05-div-02 img {
+    display: flex;
+   width: 300px;
+   
+  
+    
+
+}
+
+.sec06-div-02 {
+    padding: 20px;
+}
+
+.banner-h1 {
+    margin: 0px;
+    padding-top: 20px;
+    padding-left: 22px;
+}
+
+.sec02-h1,
+.sec03-h1,
+.sec04-h1,
+.sec05-h1,
+.sec06-h1 {
+
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.sec02-h1 {
+    background-color: none;
+
+
+}
+
+.footer-p {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    border-top: 1px solid rgb(201, 201, 201);
+}
+
+.exp-image {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    justify-content: center;
+    display: flex;
+    
+}
+.image-container{
+    display: flex;
+    justify-content: center; /* Centers images horizontally */
+    flex-wrap: wrap; /* Allows wrapping when needed */
+    gap: 20px; /* Adds spacing between images */
+    margin-top: 20px;
+}
+
+
+
+/*POP UP BANNER STYLES*/
+.popup {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    /* Ensures it appears above other content */
+}
+
+.popup-content {
+    background: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.popup img {
+
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+
+.contact-de {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.contact-de- {
+    text-align: center;
+}
+.section-name{
+    text-align: center;
+    background-color: white;
+    padding-top: 30px;
+}
+
+.skill-h1{
+    background-color: rgb(224, 224, 224);
+    margin: none;
+    padding-top: 20px;
+    padding-left: 22px;
+}
+.service-h1{
+    margin: none;
+    padding-top: 20px;
+    padding-left: 22px;
+    background-color: white;
+}
+.packages-h1{
+    margin: none;
+    padding-top: 20px;
+    padding-left: 22px;
+    background-color: rgb(224, 224, 224);
+}
+
+.gallery-h1{
+    
+    margin: none;
+    padding-top: 20px;
+    padding-left: 22px;
+    background-color: white;
+}
+
+
+@media (max-width: 800px) {
+    .hidemobile {
+        display: none;
+    }
+
+    .Menu {
+        display: block;
+    }
+
+    .sec02-begining {
+        display: flex;
+        overflow-x: auto;
+    }
+
+    
+
+    .sec05-div-02 {
+        text-align: center;
+        display: flex;
+        overflow-x: auto;
+    }
+}
+
+@media (max-width: 400px) {
+    .sidebar {
+        width: 100%;
+    }
+}
