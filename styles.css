@@ -115,9 +115,33 @@ nav li:first-child {
 
 .pading-left-5 {
     color: rgb(0, 0, 0);
+    
 
 }
+.txr-div{
+    padding: 40px;
+    text-align: center;
+}
+.txr-div-{
+    padding: 40px;
+   
+}
+.txr-div ul{
 
+
+justify-content: center;
+
+}
+.txr-div li{
+    background-color: white;
+    margin-bottom: 2px;
+    padding: 4px;
+    list-style: none;
+    border-radius: 9px;
+}
+.txr-div li:hover{
+    background-color: lightgreen;
+}
 .pading-left-5 h1 {
     font-size: 40px;
 }
@@ -143,6 +167,7 @@ nav li:first-child {
 
 .pading-left- {
     color: rgb(0, 0, 0);
+    display: flex;
 
 }
 
@@ -227,7 +252,7 @@ nav li:first-child {
     height: 100%;
     width: 100%;
     display: flex;
-    text-align: center;
+    
     justify-content: center;
     align-items: center;
 
@@ -591,7 +616,17 @@ nav li:first-child {
 
 
     }
+    .txr-div ul{
+        
+        justify-content: center;
+        display: block;
+        }
+.pading-left- {
+    color: rgb(0, 0, 0);
+    display: flex;
+    overflow-x: auto;
 
+}
 
 
 
@@ -610,6 +645,7 @@ nav li:first-child {
 
 
     }
+    
 
     .sec05-div-02 img {
 
