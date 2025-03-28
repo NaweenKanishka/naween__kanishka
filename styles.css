@@ -275,9 +275,6 @@ nav li:first-child {
     height: auto;
     padding-top: 20px;
     padding-bottom: 40px;
-    display: flex;
-    overflow-x: auto;
-    justify-content: center;
     
 
 
