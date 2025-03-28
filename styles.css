@@ -358,12 +358,17 @@ nav li:first-child {
 
 .sec05-div-02 img {
     display: flex;
+    flex-wrap: wrap;
    width: 300px;
+   padding: 10px;
+   background-color: white;
+   
    
   
     
 
 }
+
 
 .sec06-div-02 {
     padding: 20px;
@@ -513,6 +518,7 @@ nav li:first-child {
         display: flex;
         overflow-x: auto;
     }
+    
 
 }
 
