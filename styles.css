@@ -355,7 +355,7 @@ justify-content: center;
     background-color: rgb(255, 255, 255);
     max-width: 100%;
     margin-top: 0px;
-    height: 400px;
+    height:auto;
     border-radius: 0 60px;
 }
 
