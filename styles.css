@@ -357,8 +357,7 @@ nav li:first-child {
 }
 
 .sec05-div-02 img {
-    display: flex;
-    flex-wrap: wrap;
+   
    width: 300px;
    padding: 10px;
    background-color: white;
@@ -518,6 +517,15 @@ nav li:first-child {
         display: flex;
         overflow-x: auto;
     }
+
+    .sec05-div-02 img {
+   
+        width: 200px;
+       
+       
+         
+     
+     }
     
 
 }
