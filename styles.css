@@ -375,6 +375,9 @@ nav li:first-child {
         display: flex;
         overflow-x: auto;
     }
+    .sec05-div-02 img{
+        width: 300px;
+    }
 }
 
 @media (max-width: 400px) {
