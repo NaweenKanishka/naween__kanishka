@@ -171,6 +171,11 @@ justify-content: center;
     display: flex;
 
 }
+.pading-left-{
+    background-color: rgb(172, 141, 141);
+    padding: 10px;
+    margin: 10px;
+}
 
 .pading-left- h1 {
     font-size: 40px;
@@ -250,10 +255,10 @@ justify-content: center;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;*/
-    height: 100%;
+    height: auto;
     width: 100%;
     display: flex;
-    
+    background-color: rgb(146, 34, 34);
     justify-content: center;
     align-items: center;
 
@@ -378,11 +383,11 @@ justify-content: center;
 }
 
 .sec03-begining- {
-    background-color: rgb(231, 231, 231);
+    background-color: rgb(90, 60, 60);
     max-width: 100%;
     margin-top: 0px;
     height: auto;
-    border-radius: 60px;
+  
 }
 
 .sec04-begining {
@@ -626,6 +631,7 @@ justify-content: center;
     color: rgb(0, 0, 0);
     display: flex;
     overflow-x: auto;
+    
 
 }
 
