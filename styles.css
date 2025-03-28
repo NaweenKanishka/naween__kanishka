@@ -115,6 +115,7 @@ nav li:first-child {
 
 .pading-left-5 {
     color: rgb(0, 0, 0);
+
     
 
 }
@@ -172,7 +173,7 @@ justify-content: center;
 
 }
 .pading-left-{
-    background-color: rgb(172, 141, 141);
+    
     padding: 10px;
     margin: 10px;
 }
@@ -202,12 +203,16 @@ justify-content: center;
 
 .txt-div-5 {
 
-    height: auto;
+    height: 100%;
     width: 100%;
     display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
+    border-radius: 0px;
+    /* Adjust for rounded corners */
+    overflow: hidden;
+
 
 
 }
@@ -258,9 +263,10 @@ justify-content: center;
     height: auto;
     width: 100%;
     display: flex;
-    background-color: rgb(146, 34, 34);
+    background-color: rgb(231, 231, 231);
     justify-content: center;
     align-items: center;
+    padding: 10px;
 
 
 }
@@ -358,11 +364,12 @@ justify-content: center;
 }
 
 .sec03-begining-5 {
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     max-width: 100%;
-    margin-top: 0px;
-    height:400px;
-    border-radius: 0 60px;
+    height: 400px;
+    border-radius: 60px;
+
+    
 }
 
 .sec03-begining-3 {
@@ -385,8 +392,9 @@ justify-content: center;
 .sec03-begining- {
     background-color: rgb(90, 60, 60);
     max-width: 100%;
-    margin-top: 0px;
+    margin: 0px;
     height: auto;
+    
   
 }
 
