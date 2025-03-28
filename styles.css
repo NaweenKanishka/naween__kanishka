@@ -89,7 +89,7 @@ nav li:first-child {
 .sec01-begining {
     background-color: white;
     max-width: 100%;
-   height: 500px;
+   height: 400px;
     
 }
 .pading-left{
@@ -100,6 +100,38 @@ nav li:first-child {
     font-size: 40px;
 }
 
+.pading-left-5{
+    color: rgb(0, 0, 0);
+    
+}
+.pading-left-5 h1{
+    font-size: 40px;
+}
+
+.pading-left-3{
+    color: white;
+    
+}
+.pading-left-3 h1{
+    font-size: 40px;
+}
+
+
+.pading-left-2{
+    color: white;
+    
+}
+.pading-left-2 h1{
+    font-size: 40px;
+}
+
+.pading-left-{
+    color: rgb(0, 0, 0);
+    
+}
+.pading-left- h1{
+    font-size: 40px;
+}
 
 .txt-div{
    background-image: url(abstract-uv-ultraviolet-light-composition.jpg);
@@ -115,6 +147,62 @@ nav li:first-child {
     
     
 }
+
+.txt-div-5{
+   
+     height: 100%;
+     width: 100%;
+     display: flex;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+     
+     
+ }
+
+.txt-div-3{
+   background-image: url(abstract-uv-ultraviolet-light-composition.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.txt-div-2{
+    background-image: url(abstract-uv-ultraviolet-light-composition.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+     height: 100%;
+     width: 100%;
+     display: flex;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+     
+     
+ }
+
+.txt-div-{
+    /* background-image: url(abstract-uv-ultraviolet-light-composition.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;*/
+     height: 100%;
+     width: 100%;
+     display: flex;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+     
+     
+ }
 
 .sec02-div-01 {
     display: flex;
@@ -154,11 +242,27 @@ nav li:first-child {
     padding-top: 20px;
     padding-bottom: 40px;
     
+    
     /*overflow-x: auto; 
     background-image: url(autumn-leaves-illuminate-nature-elegance-beauty-generated-by-ai.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center;*/
+
+
+
+
+}
+.sec02-begining- {
+    background-color: rgb(224, 224, 224);
+    max-width: 100%;
+    margin-top: 0px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    display: flex;
+    overflow-x: auto;
+    
 
 
 
@@ -189,6 +293,31 @@ nav li:first-child {
     margin-top: 0px;
     height: 400px;
 }
+.sec03-begining-5 {
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+    margin-top: 0px;
+    height: 400px;
+}
+.sec03-begining-3 {
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+    margin-top: 0px;
+    height: 400px;
+}
+
+.sec03-begining-2 {
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+    margin-top: 0px;
+    height: 400px;
+}
+.sec03-begining- {
+    background-color: rgb(224, 224, 224);
+    max-width: 100%;
+    margin-top: 0px;
+    height: 400px;
+}
 
 .sec04-begining {
     background-color: rgb(224, 224, 224);
@@ -198,10 +327,10 @@ nav li:first-child {
 }
 
 .sec05-begining {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(224, 224, 224);
    
     margin-top: 0px;
-    height: auto;
+    
     padding: 30px;
     gap: 10px;
     border-radius: 0px;
@@ -213,10 +342,10 @@ nav li:first-child {
 
 
 .sec06-begining {
-    background-color: rgb(224, 224, 224);
+    background-color: rgb(255, 255, 255);
     
     margin-top: 0px;
-    height: auto;
+    height: 200px;
     
 }
 
@@ -258,7 +387,7 @@ nav li:first-child {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 100px;
-    border-top: 1px solid rgb(201, 201, 201);
+    background-color: white;
 }
 
 .exp-image {
@@ -363,7 +492,7 @@ nav li:first-child {
     margin: none;
     padding-top: 20px;
     padding-left: 22px;
-    background-color: white;
+    background-color: rgb(224, 224, 224);
 }
 
 
@@ -380,17 +509,11 @@ nav li:first-child {
         display: flex;
         overflow-x: auto;
     }
-
-    
-
-    .sec05-div-02 {
-        text-align: center;
+    .sec02-begining-{
         display: flex;
         overflow-x: auto;
     }
-    .sec05-div-02 img{
-        width: 200px;
-    }
+
 }
 
 @media (max-width: 400px) {
