@@ -92,11 +92,17 @@ nav li:first-child {
    height: 500px;
     
 }
-
+.pading-left{
+    color: white;
+    
+}
+.pading-left h1{
+    font-size: 40px;
+}
 
 
 .txt-div{
-   background-image: url(autumn-leaves-illuminate-nature-elegance-beauty-generated-by-ai.jpg);
+   background-image: url(abstract-uv-ultraviolet-light-composition.jpg);
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
@@ -110,7 +116,14 @@ nav li:first-child {
     
 }
 
+.sec02-div-01 {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
 
+
+
+}
 .sec01-div-01,
 .sec02-div-01 {
     height: 100%;
@@ -140,8 +153,8 @@ nav li:first-child {
     height: auto;
     padding-top: 20px;
     padding-bottom: 40px;
-    /* display: flex;
-    overflow-x: auto; 
+    
+    /*overflow-x: auto; 
     background-image: url(autumn-leaves-illuminate-nature-elegance-beauty-generated-by-ai.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -154,8 +167,8 @@ nav li:first-child {
 
 .sec02-div-02 {
     padding: 10px;
-    width: 150px;
-    height: auto;
+    width: 300px;
+    height: 400px;
 
     border-radius: 20px;
 
@@ -168,19 +181,13 @@ nav li:first-child {
 
 }
 
-.sec02-div-01 {
-    display: flex;
-    gap: 10px;
 
-
-
-}
 
 .sec03-begining {
     background-color: rgb(255, 255, 255);
     max-width: 100%;
     margin-top: 0px;
-    height: auto;
+    height: 400px;
 }
 
 .sec04-begining {
@@ -239,16 +246,7 @@ nav li:first-child {
     padding-left: 22px;
 }
 
-.sec02-h1,
-.sec03-h1,
-.sec04-h1,
-.sec05-h1,
-.sec06-h1 {
 
-    text-align: center;
-    padding-top: 10px;
-
-}
 
 .sec02-h1 {
     background-color: none;
@@ -337,12 +335,15 @@ nav li:first-child {
     background-color: white;
     padding-top: 30px;
 }
-
+.skill-h1, .service-h1, .packages-h1, .gallery-h1{
+    text-align: center;
+}
 .skill-h1{
     background-color: rgb(224, 224, 224);
     margin: none;
     padding-top: 20px;
     padding-left: 22px;
+    text-align: center;
 }
 .service-h1{
     margin: none;
@@ -375,7 +376,7 @@ nav li:first-child {
         display: block;
     }
 
-    .sec02-begining {
+    .sec02-begining{
         display: flex;
         overflow-x: auto;
     }
