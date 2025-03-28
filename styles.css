@@ -175,10 +175,11 @@ nav li:first-child {
     
 }
 .txt-div-2{
-    background-image: url(abstract-uv-ultraviolet-light-composition.jpg);
+    background-image: url(HD-wallpaper-check-mate-lights-zen.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-color: black;
      height: 100%;
      width: 100%;
      display: flex;
@@ -262,6 +263,7 @@ nav li:first-child {
     padding-bottom: 40px;
     display: flex;
     overflow-x: auto;
+    justify-content: center;
     
 
 
@@ -329,12 +331,13 @@ nav li:first-child {
 .sec05-begining {
     background-color: rgb(224, 224, 224);
    
-    margin-top: 0px;
+   margin: 0;
     
-    padding: 30px;
-    gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
     border-radius: 0px;
-    text-align: center;
+   
 }
 
 
@@ -406,6 +409,7 @@ nav li:first-child {
     display: flex;
     gap: 10px;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap; /* Allows wrapping when needed */
     
     
@@ -518,14 +522,26 @@ nav li:first-child {
         overflow-x: auto;
     }
 
+    .image-container{
+        display: flex;
+        
+     
+        
+        
+    }
     .sec05-div-02 img {
    
-        width: 200px;
-       
+       width: 200px;
+       padding: 3px;
+        
+        
+        
        
          
      
      }
+
+    
     
 
 }
@@ -534,4 +550,22 @@ nav li:first-child {
     .sidebar {
         width: 100%;
     }
+    .image-container{
+        display: flex;
+        
+        flex-wrap: wrap; /* Allows wrapping when needed */
+        
+        
+    }
+    .sec05-div-02 img {
+   
+        width: 100px;
+       padding: 3px;
+        
+        
+        
+       
+         
+     
+     }
 }
