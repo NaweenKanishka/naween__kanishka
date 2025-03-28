@@ -90,8 +90,19 @@ nav li:first-child {
     background-color: white;
     max-width: 100%;
     margin-top: 10px;
-
+    display: flex;
+    text-align: center;
+    justify-items: center;
     height: 400px;
+}
+
+
+.txt-div{
+    background-color: rgb(121, 129, 129);
+    height: 100%;
+    width: 100%;
+    
+    
 }
 
 .sec01-div-01,
