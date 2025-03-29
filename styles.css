@@ -28,11 +28,12 @@ nav {
 
 }
 
-.image{
+.image {
     width: 50px;
- margin-right: auto;
- padding-left: 10px;
+    margin-right: auto;
+    padding-left: 10px;
 }
+
 nav ul {
     width: 100%;
     list-style: none;
@@ -63,7 +64,7 @@ nav a:hover {
 
 nav li:first-child {
     margin-right: auto;
-    
+
 }
 
 
@@ -100,7 +101,7 @@ nav li:first-child {
     background-color: white;
     max-width: 100%;
     height: 400px;
- 
+  
 
 }
 
@@ -116,34 +117,40 @@ nav li:first-child {
 .pading-left-5 {
     color: rgb(0, 0, 0);
 
-    
+
 
 }
-.txr-div{
+
+.txr-div {
     padding: 40px;
     text-align: center;
     height: 100%;
 }
-.txr-div-{
+
+.txr-div- {
     padding: 40px;
-   
-}
-.txr-div ul{
-
-
-justify-content: center;
 
 }
-.txr-div li{
+
+.txr-div ul {
+
+
+    justify-content: center;
+
+}
+
+.txr-div li {
     background-color: white;
     margin-bottom: 2px;
     padding: 4px;
     list-style: none;
     border-radius: 9px;
 }
-.txr-div li:hover{
+
+.txr-div li:hover {
     background-color: lightgreen;
 }
+
 .pading-left-5 h1 {
     font-size: 40px;
 }
@@ -172,8 +179,9 @@ justify-content: center;
     display: flex;
 
 }
-.pading-left-{
-    
+
+.pading-left- {
+
     padding: 10px;
     margin: 10px;
 }
@@ -266,7 +274,8 @@ justify-content: center;
     background-color: rgb(231, 231, 231);
     justify-content: center;
     align-items: center;
-    padding: 10px;
+   
+    
 
 
 }
@@ -359,7 +368,7 @@ justify-content: center;
     max-width: 100%;
     margin-top: 0px;
     height: 400px;
-  
+   
 
 }
 
@@ -367,9 +376,9 @@ justify-content: center;
     background-color: white;
     max-width: 100%;
     height: 400px;
-   
-
     
+
+
 }
 
 .sec03-begining-3 {
@@ -377,7 +386,7 @@ justify-content: center;
     max-width: 100%;
     margin-top: 0px;
     height: 400px;
- 
+    
 
 }
 
@@ -394,8 +403,7 @@ justify-content: center;
     max-width: 100%;
     margin: 0px;
     height: auto;
-    
-  
+
 }
 
 .sec04-begining {
@@ -414,7 +422,7 @@ justify-content: center;
     padding-top: 10px;
     padding-bottom: 10px;
 
-   
+    
 
 }
 
@@ -630,18 +638,20 @@ justify-content: center;
 
 
     }
-    .txr-div ul{
-        
+
+    .txr-div ul {
+
         justify-content: center;
         display: block;
-        }
-.pading-left- {
-    color: rgb(0, 0, 0);
-    display: flex;
-    overflow-x: auto;
-    
+    }
 
-}
+    .pading-left- {
+        color: rgb(0, 0, 0);
+        display: flex;
+        overflow-x: auto;
+
+
+    }
 
 
 
@@ -650,6 +660,13 @@ justify-content: center;
 @media (max-width: 400px) {
     .sidebar {
         width: 100%;
+    }
+    .pading-left- {
+        color: rgb(0, 0, 0);
+        display: flex;
+        overflow-x: auto;
+
+
     }
 
     .image-container {
@@ -660,7 +677,11 @@ justify-content: center;
 
 
     }
-    
+    .sec03-begining-{
+        display: flex;
+        overflow-x: auto;
+    }
+
 
     .sec05-div-02 img {
 
